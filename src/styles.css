@@ -1,0 +1,135 @@
+.container {
+  margin: 30px auto;
+  padding: 20px;
+  width: 450px;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+.cities {
+  color: darkblue;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.favorites:hover {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+input {
+  width: 160px;
+  border-radius: 5px;
+}
+button {
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+hr {
+  background-color: red;
+  height: 5px;
+}
+p {
+  margin: 0 auto;
+}
+.currentInfo {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.currentCity {
+  padding-top: 10px;
+  font-size: 32px;
+  line-height: 28px;
+  color: darkblue;
+}
+.currentTime {
+  font-size: 16px;
+}
+.currentTemp {
+  padding-top: 20px;
+  font-size: 28px;
+  color: red;
+  display: block;
+}
+.secondTemp {
+  cursor: pointer;
+  color: darkblue;
+}
+.hiddenTemp {
+  display: none;
+}
+
+.currentPicture i {
+  padding-top: 20px;
+  color: orange;
+  font-size: 28px;
+  line-height: unset;
+}
+.forecast {
+  margin: 0 auto;
+}
+.card {
+  padding: 5px;
+}
+.card-title {
+  font-size: 20px;
+  color: red;
+}
+.days {
+  font-size: 12px;
+  font-weight: bold;
+}
+.sun {
+  color: orange;
+  font-size: 20px;
+}
+.cloud {
+  color: darkgrey;
+  font-size: 20px;
+}
+.rain {
+  color: darkblue;
+  font-size: 20px;
+}
+.card {
+  border: none;
+}
+.search {
+  background-color: rgb(33, 194, 33);
+  color: azure;
+}
+.search:hover {
+  color: rgb(33, 194, 33);
+  background-color: azure;
+}
+.current {
+  background-color: rgb(128, 137, 128);
+  color: azure;
+}
+.current:hover {
+  color: rgb(128, 137, 128);
+  background-color: azure;
+}
+.add {
+  background-color: rgb(45, 25, 137);
+  color: azure;
+}
+.add:hover {
+  color: rgb(45, 25, 137);
+  background-color: azure;
+}
+.remove {
+  background-color: rgb(225, 27, 34);
+  color: azure;
+}
+.remove:hover {
+  color: rgb(225, 27, 34);
+  background-color: azure;
+}
+.link {
+  width: 450px;
+  margin: 0px auto;
+  font-size: 12px;
+  font-weight: bolder;
+}

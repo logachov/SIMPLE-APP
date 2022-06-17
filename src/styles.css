@@ -51,10 +51,16 @@ p {
   font-size: 28px;
   color: red;
   display: block;
+  font-weight: 500;
 }
 .secondTemp {
   cursor: pointer;
   color: darkblue;
+  font-size: 28px;
+ font-weight: 300;
+}
+.secondTemp:hover {
+  font-weight: 500;
 }
 .hiddenTemp {
   display: none;

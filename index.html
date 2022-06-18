@@ -11,13 +11,14 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="src/styles.css" />
-
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>myWeather</title>
   </head>
   <body>
     <div class="container">
       <div class="row cities">
         <div class="col favorites" id="Amsterdam">Amsterdam</div>
+        <div class="col favorites" id="Sankt-Peterburg">Sankt-Peterburg</div>
         <div class="col favorites" id="Kyiv">Kyiv</div>
         <div class="col favorites" id="Dnipro">Dnipro</div>
       </div>
@@ -41,7 +42,11 @@
           <p class="currentDescription">Clear</p>
         </div>
         <div class="col-2">
-          <img class="currentPicture" src="http://openweathermap.org/img/w/04n.png" alt="">
+          <img
+            class="currentPicture"
+            src="http://openweathermap.org/img/w/04n.png"
+            alt="Clouds"
+          />
         </div>
         <div class="col-4 currentTemp">
           <span class="TempC">25</span><span class="TempC">&degC</span
@@ -60,7 +65,7 @@
       <div class="row forecast">
         <div class="btn-group btn-group-justified">
           <div class="btn-group">
-            <div class="col">
+            <div class="col card-cont">
               <div class="card">
                 <p class="card-text days day1">Mon</p>
                 <p class="card-title"><span class="temp1">29</span>&degC</p>
@@ -70,7 +75,7 @@
           </div>
 
           <div class="btn-group">
-            <div class="col">
+            <div class="col card-cont">
               <div class="card">
                 <p class="card-text days day2">Tue</p>
                 <p class="card-title"><span class="temp2">30</span>&degC</p>
@@ -80,7 +85,7 @@
           </div>
 
           <div class="btn-group">
-            <div class="col">
+            <div class="col card-cont">
               <div class="card">
                 <p class="card-text days day3">Wen</p>
                 <p class="card-title"><span class="temp3">28</span>&degC</p>
@@ -90,7 +95,7 @@
           </div>
 
           <div class="btn-group">
-            <div class="col">
+            <div class="col card-cont">
               <div class="card">
                 <p class="card-text days day4">Thu</p>
                 <p class="card-title"><span class="temp4">23</span>&degC</p>
@@ -102,7 +107,7 @@
           </div>
 
           <div class="btn-group">
-            <div class="col">
+            <div class="col card-cont">
               <div class="card">
                 <p class="card-text days day5">Fri</p>
                 <p class="card-title"><span class="temp5">25</span>&degC</p>
@@ -115,15 +120,18 @@
         </div>
       </div>
     </div>
-    <div class="link">
-      <a href="https://github.com/logachov/MYGIT">Github repo </a> by Olesia
+    <div class="githubLink">
+      Created by Olesia.<a
+        href="https://github.com/logachov/SIMPLE-APP"
+        target="_blank"
+      >
+        Wellcom to my Github repo.</a
+      >
     </div>
     <script
       src="https://kit.fontawesome.com/431044e55f.js"
       crossorigin="anonymous"
     ></script>
-
     <script async src="src/index.js"></script>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </body>
 </html>

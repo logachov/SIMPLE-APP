@@ -1,13 +1,23 @@
 .container {
-  margin: 30px auto;
+  margin: 50px auto 10px;
   padding: 20px;
   width: 450px;
   border: 2px solid red;
   border-radius: 5px;
+  background-color: rgb(180, 215, 250);
 }
-.cities {
+.card {
+  width: 70px;
+  background-color: rgb(170, 210, 250);
+}
+.card-cont {
+  padding: 0px 6px;
+}
+div.cities {
+  width: 410px;
+  margin-left: 0;
   color: darkblue;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: bold;
   margin-bottom: 15px;
 }
@@ -32,6 +42,9 @@ hr {
 }
 p {
   margin: 5px auto;
+}
+div.favorites {
+  padding: 0 1px;
 }
 .currentInfo {
   margin-top: 20px;
@@ -60,13 +73,11 @@ p {
 .currentTime {
   margin-top: 12px;
 }
-/* .wind,
-.humidity {
-  position: relative;
-  top: -10px;
-} */
+
 .TempC,
-.TempF {
+.TempF,
+.TempCtoF,
+.TempFtoC {
   font-size: 26px;
   line-height: 16px;
   color: red;
@@ -89,10 +100,8 @@ p {
 }
 .col-2 {
   padding: 0;
-  
 }
 img.currentPicture {
- 
   text-align: center;
   width: 70px;
   height: 70px;
@@ -158,7 +167,7 @@ img.currentPicture {
   color: rgb(225, 27, 34);
   background-color: azure;
 }
-.link {
+.githubLink {
   width: 450px;
   margin: 0px auto;
   font-size: 12px;
